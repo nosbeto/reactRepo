@@ -6,11 +6,8 @@ import { useState } from "react";
 
 function App() {
   const [isActive, setIsActive] = useState(false);
-  // const handleClickActive = event => {
-  //     setIsActive(current=>!current)
-  // }
-  const handleClickActive = () => {
-    console.log("this shit works");
+  // const handleClickActive = () => {
+  //   console.log("this shit works")}
     return (
       <div>
         <NavBar handleClickActive={isActive} />
@@ -18,7 +15,6 @@ function App() {
         <ProjectWrapper />
       </div>
     );
-  };
 }
 
 export default App;

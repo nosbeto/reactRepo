@@ -6,7 +6,7 @@ import {useState} from 'react'
 const HomeWrapper = ({isActive}) => {
   return (
     // <div className={isActive ? 'd-none' : ''}>
-    <div className={isActive ? "" : "d-none"}>
+    <div className={isActive}>
       <LinkedInBadge />
       <ProfileSummary />
       <DeveloperExp />
