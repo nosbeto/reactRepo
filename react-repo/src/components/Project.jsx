@@ -1,3 +1,9 @@
+// const projects = await import ("../seeds/projects.json",{
+//   assert:{type:"json"},})
+
+// const {title, description, url, image} = await import ("../seeds/projects.json",{
+//   assert:{type:"json"},})
+
 const Project = (props) => {
   const style = '"width: 18rem;"'
   return (
