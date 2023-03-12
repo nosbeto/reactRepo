@@ -1,12 +1,15 @@
-import React from 'react'
+const NavBar = () => {
 
-export default function navBar() {
+  const handleClickHome = () => {
+    console.log('this shit works')
+  }
+
   return (
     <div className="container">
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            Navbar
+            Alberto De Armas
           </a>
           <button
             className="navbar-toggler"
@@ -16,6 +19,7 @@ export default function navBar() {
             aria-controls="navbarNav"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            onClick={handleClickHome}
           >
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -28,16 +32,11 @@ export default function navBar() {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Features
+                  Projects
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Pricing
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link disabled">Disabled</a>
+                <a className="nav-link disabled">Resume</a>
               </li>
             </ul>
           </div>
@@ -46,3 +45,5 @@ export default function navBar() {
     </div>
   );
 }
+
+export default NavBar
