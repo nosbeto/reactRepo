@@ -5,7 +5,7 @@ export default function DeveloperExp() {
         <h5 className="card-header">Developer's Experience</h5>
         <div className="card-body">
           <h5 className="card-title">Summary</h5>
-          <p className="card-text">
+          <p className="card-text"/>
             Completed a six month full-stack web development bootcamp by UNCC,
             where I gained hands-on experience with the following development
             tools:
@@ -20,7 +20,6 @@ export default function DeveloperExp() {
               <li>Graph QL</li>
               <li>API Development</li>
             </ul>
-          </p>
         </div>
       </div>
     </div>

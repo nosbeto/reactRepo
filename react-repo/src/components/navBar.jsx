@@ -24,7 +24,7 @@ const NavBar = ({isActive}) => {
                   className="nav-link active"
                   aria-current="page"
                   href="#"
-                  onClick={isActive}
+                  onClick={isActive ? "d-none" : ""}
                 >
                   Home
                 </a>

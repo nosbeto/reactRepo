@@ -12,14 +12,13 @@ export default function ProfileSummary() {
             and Business Analytics program.
           </p>
           <h5 className="card-title">Employers</h5>
-          <p className="card-text">
+          <p className="card-text"/>
             <ul>
                 <li>Citco</li>
                 <li>Wells Fargo</li>
                 <li>EY</li>
                 <li>Featurespace (current)</li>
             </ul>
-          </p>
         </div>
       </div>
     </div>

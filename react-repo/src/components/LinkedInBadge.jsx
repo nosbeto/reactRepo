@@ -2,7 +2,7 @@ export default function LinkedInBadge() {
   return (
     <div className="container">
       <div
-        class="badge-base LI-profile-badge"
+        className="badge-base LI-profile-badge"
         data-locale="en_US"
         data-size="large"
         data-theme="dark"
