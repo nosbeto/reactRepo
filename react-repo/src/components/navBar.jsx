@@ -1,9 +1,4 @@
-const NavBar = () => {
-
-  const handleClickHome = () => {
-    console.log('this shit works')
-  }
-
+const NavBar = ({isActive}) => {
   return (
     <div className="container">
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -19,14 +14,18 @@ const NavBar = () => {
             aria-controls="navbarNav"
             aria-expanded="false"
             aria-label="Toggle navigation"
-            onClick={handleClickHome}
           >
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a
+                  className="nav-link active"
+                  aria-current="page"
+                  href="#"
+                  onClick={isActive}
+                >
                   Home
                 </a>
               </li>
@@ -44,6 +43,6 @@ const NavBar = () => {
       </nav>
     </div>
   );
-}
+};
 
-export default NavBar
+export default NavBar;
