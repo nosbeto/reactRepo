@@ -1,4 +1,4 @@
-const NavBar = ({isActive}) => {
+const NavBar = ({ isActive, handlePageChange }) => {
   return (
     <div className="container">
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -24,13 +24,17 @@ const NavBar = ({isActive}) => {
                   className="nav-link active"
                   aria-current="page"
                   href="#"
-                  onClick={isActive ? "d-none" : ""}
+                  onClick={() => handlePageChange("Home")}
                 >
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a
+                  className="nav-link"
+                  href="#"
+                  onClick={() => handlePageChange("Project")}
+                >
                   Projects
                 </a>
               </li>
