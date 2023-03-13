@@ -3,10 +3,9 @@ import ProfileSummary from "./ProfileSummary";
 import DeveloperExp from "./DeveloperExperience";
 import {useState} from 'react'
 
-const HomeWrapper = ({isActive}) => {
+const HomeWrapper = () => {
   return (
-    // <div className={isActive ? 'd-none' : ''}>
-    <div className={isActive}>
+    <div>
       <LinkedInBadge />
       <ProfileSummary />
       <DeveloperExp />
