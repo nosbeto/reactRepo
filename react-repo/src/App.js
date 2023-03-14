@@ -14,7 +14,7 @@ function App() {
       return <HomeWrapper/>
       break;
       case "Project":
-        return <Project/>
+        return <ProjectWrapper/>
       break;
     }}
     const handlePageChange = (isActive) => setIsActive(isActive)

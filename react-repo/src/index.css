@@ -12,3 +12,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.color-red {
+  color: red;
+}
+
+
+.dark-setup {
+  background-color: #3f3f3f;
+  color: whitesmoke;
+}
