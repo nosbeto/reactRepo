@@ -1,9 +1,12 @@
 import Project from "./Project";
 
+import Projects from "../seeds/projects.json"
+
 const ProjectWrapper = () => {
+  console.log(Projects)
   return (
     <div>
-      <Project/>
+      <Project projects={Projects}/>
     </div>
   );
 };
