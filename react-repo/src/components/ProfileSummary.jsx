@@ -5,8 +5,8 @@ import ListGroup from "react-bootstrap/ListGroup";
 
 export default function ProfileSummary() {
   return (
-    <Container className="d-flex justify-content-around">
-      <Card style={{ width: "30rem" }}>
+    <Container className="d-flex justify-content-around p-3">
+      <Card border="dark" style={{ width: "30rem" }}>
         <Card.Header as="h5">Alberto De Armas Profile's Summary</Card.Header>
         <Card.Body>
           <Card.Title>Experience</Card.Title>

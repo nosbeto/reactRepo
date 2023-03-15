@@ -1,7 +1,6 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
 
 const NavBar = ({ isActive, handlePageChange }) => {
   return (
@@ -16,10 +15,14 @@ const NavBar = ({ isActive, handlePageChange }) => {
                 Home
               </Nav.Link>
               <Nav.Link
-                href="#link"
                 onClick={() => handlePageChange("Project")}
               >
                 Projects
+              </Nav.Link>
+              <Nav.Link
+                onClick={() => handlePageChange("ContactMe")}
+              >
+                Contact Me
               </Nav.Link>
               <Nav.Link
                 href="https://www.linkedin.com/in/dearmasalberto/"

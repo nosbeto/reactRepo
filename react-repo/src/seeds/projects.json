@@ -3,24 +3,24 @@
         "title":"textEditorPWA",
         "description":"This is a text editor that uses indexedDB as a source to store your text. Aditionally, it can be downloaded to be used offline. This text editor uses webpack to compile and improve the efficiency of the code",
         "url":"https://github.com/nosbeto/textEditorPWA",
-        "image":"./img/texteditorPWA.png"
+        "image":"./img/projects/texteditorPWA.png"
     },
     {
         "title":"thoughtsRepo",
         "description":"This is an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.",
         "url":"https://github.com/nosbeto/thoughtsRepo",
-        "image":"./img/thoughtsRepo.png"
+        "image":"./img/projects/thoughtsRepo.png"
     },
     {
         "title":"internetRetail",
         "description":"I built the back end for an e-commerce site. I leveraged Express.js to construct the available routes for the users to interact with the SQL database that supports the front end.",
         "url":"https://github.com/nosbeto/internetRetail",
-        "image":"./img/internetRetail.png"
+        "image":"./img/projects/internetRetail.png"
     },
     {
         "title":"inquirerSQL",
         "description":"This is a Content Management System that allow end-users to easily view and interact with information stored in databases. I chose to leverage the power of inquirer to create a great end-user customer experience",
         "url":"https://github.com/nosbeto/InquirerSQL",
-        "image":"./img/inquirerSQL.png"
+        "image":"./img/projects/inquirerSQL.png"
     }
 ]
