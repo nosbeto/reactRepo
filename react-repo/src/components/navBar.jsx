@@ -1,51 +1,36 @@
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
+
 const NavBar = ({ isActive, handlePageChange }) => {
   return (
-    <div className="container">
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
-        <div className="container-fluid">
-          <a className="navbar-brand" href="#">
-            Alberto De Armas
-          </a>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <a
-                  className="nav-link active"
-                  aria-current="page"
-                  href="#"
-                  onClick={() => handlePageChange("Home")}
-                >
-                  Home
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link"
-                  href="#"
-                  onClick={() => handlePageChange("Project")}
-                >
-                  Projects
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link disabled">Resume</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
+    <Container>
+      <Navbar bg="light" expand="lg">
+        <Container>
+          <Navbar.Brand href="#home">Alberto De Armas</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="me-auto">
+              <Nav.Link href="#home" onClick={() => handlePageChange("Home")}>
+                Home
+              </Nav.Link>
+              <Nav.Link
+                href="#link"
+                onClick={() => handlePageChange("Project")}
+              >
+                Projects
+              </Nav.Link>
+              <Nav.Link
+                href="https://www.linkedin.com/in/dearmasalberto/"
+              >
+                LinkedIn
+              </Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+    </Container>
   );
 };
 
