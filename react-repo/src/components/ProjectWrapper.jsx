@@ -3,7 +3,6 @@ import Projects from "../seeds/projects.json"
 import Container from "react-bootstrap/Container";
 
 const ProjectWrapper = () => {
-  console.log(Projects)
   return (
     <Container>
       <Project projects={Projects}/>

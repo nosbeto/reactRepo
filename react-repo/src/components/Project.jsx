@@ -7,7 +7,7 @@ const Project = ({ projects = [] }) => {
     <Container>
       {projects.map((Project) => (
         <Container className="d-flex justify-content-around p-3">
-          <Card style={{ width: "30rem" }}>
+          <Card border="dark" style={{ width: "30rem" }}>
             <Card.Img variant="top" src={Project.image} />
             <Card.Body>
               <Card.Title>{Project.title}</Card.Title>
