@@ -2,6 +2,7 @@ import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import Card from "react-bootstrap/Card";
 import Form from "react-bootstrap/Form";
+import ModalEmail from "./ModalEmail"
 
 
 export default function SendMeEmail() {
@@ -17,7 +18,7 @@ export default function SendMeEmail() {
           <Form.Label>Send me a message</Form.Label>
           <Form.Control as="textarea" rows={6} />
         </Form.Group>
-        <Button className="m-3">Send!</Button>
+        <ModalEmail/>
       </Form>
       </Card>
     </Container>
